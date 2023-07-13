@@ -11,6 +11,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+
 }
 
 body {
@@ -18,7 +19,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: var(--background-color);
+    background-image: linear-gradient(to bottom right, #416f9a 20%, #6DFC6B);
 }
 
 .water {
@@ -42,7 +43,7 @@ body {
 .water h2:nth-child(2) {
     color: transparent;
     -webkit-background-clip: text;
-    background-image: linear-gradient(45deg, var(--water-color), var(--second-water-color));
+    background-image: linear-gradient(to left, var(--water-color), var(--second-water-color));
     animation: wave 4s ease-in-out infinite;
 }
 
