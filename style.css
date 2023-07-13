@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
 
 :root {
-    --background-color: #183954;
+    --background-color1: #416f9a;
+    --background-color2: #6DFC6B;
+    --animation-time: 4s;
     --water-color: #03a9f4;
     --second-water-color: #33d6d1;
 }
@@ -19,7 +21,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: linear-gradient(to bottom right, #416f9a 20%, #6DFC6B);
+    background-image: linear-gradient(to bottom right, var(--background-color1) 20%, var(--background-color2));
 }
 
 .water {
@@ -44,7 +46,7 @@ body {
     color: transparent;
     -webkit-background-clip: text;
     background-image: linear-gradient(to left, var(--water-color), var(--second-water-color));
-    animation: wave 4s ease-in-out infinite;
+    animation: wave var(--animation-time) ease-in-out infinite;
 }
 
 @keyframes wave {
