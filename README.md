@@ -7,9 +7,9 @@ To see a live demo of the water wave text effect, visit [this link](link-to-demo
 ## Customization
 To customize the water wave text effect, you can modify the CSS variables defined in the :root selector of the CSS file (style.css). The following variables are available for customization: <br>
 :root {
-    <br>&nbsp;&nbsp;--background-color1: #416f9a;            /* First background color of the page */
-    <br>&nbsp;&nbsp;--background-color2: #6DFC6B;            /* Second background color of the page */
-    <br>&nbsp;&nbsp;--animation-time: 4s;                     /* Duration of the wave animation */
-    <br>&nbsp;&nbsp;--water-color: #03a9f4;                   /* Color of the water wave */
-    <br>&nbsp;&nbsp;--second-water-color: #33d6d1;            /* Secondary color of the water wave */
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;--background-color1: #416f9a;            /* First background color of the page */
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;--background-color2: #6DFC6B;            /* Second background color of the page */
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;--animation-time: 4s;                     /* Duration of the wave animation */
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;--water-color: #03a9f4;                   /* Color of the water wave */
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;--second-water-color: #33d6d1;            /* Secondary color of the water wave */
 <br>/}
