@@ -21,7 +21,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: linear-gradient(to bottom right, var(--background-color1) 20%, var(--background-color2));
+    background-image: linear-gradient(to bottom right, var(--background-color1) 50%, var(--background-color2));
 }
 
 .water {
@@ -39,7 +39,7 @@ body {
     color: #fff;
     text-shadow: -1px 1px 0px #d48a46,
         -2px 2px 0px #d48a46,
-        -6px 6px 8px rgba(0, 0, 0, 0.5)
+        -6px 6px 8px rgba(0, 0, 0, 0.5);
 }
 
 .water h2:nth-child(2) {
