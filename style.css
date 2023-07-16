@@ -21,7 +21,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: linear-gradient(to bottom right, var(--background-color1) 50%, var(--background-color2));
+    background-image: linear-gradient(to bottom right, var(--background-color1) 30%, var(--background-color2));
 }
 
 .water {
@@ -44,6 +44,7 @@ body {
 
 .water h2:nth-child(2) {
     color: transparent;
+    background-clip: text;
     -webkit-background-clip: text;
     background-image: linear-gradient(to left, var(--water-color), var(--second-water-color));
     animation: wave var(--animation-time) ease-in-out infinite;
