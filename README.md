@@ -2,7 +2,7 @@
 This repository contains code and assets to create a water wave text effect using HTML and CSS. The effect utilizes the `clip-path` property to create a wave-like shape that appears as if it's flowing through the text.
 
 ## Demo
-To see a live demo of the water wave text effect, visit [this link](link-to-demo) and experience the effect in action.
+To see a live demo of the water wave text effect, visit [this link](https://codepen.io/jaswoo73/pen/zYMWdGr) and experience the effect in action.
 
 ## Customization
 To customize the water wave text effect, you can modify the CSS variables defined in the :root selector of the CSS file (style.css). The following variables are available for customization: <br>
